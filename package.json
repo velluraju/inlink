@@ -10,7 +10,7 @@
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
     "dev:backend": "npm run dev --workspace=@inlink/backend",
     "dev:frontend": "cd packages/frontend && npm run dev",
-    "build": "cd packages/frontend && npm install && npm run build",
+    "build": "cd packages/frontend && npm run build",
     "start": "cd packages/frontend && npm start",
     "test": "npm run test --workspaces",
     "lint": "npm run lint --workspaces",
