@@ -1,5 +1,6 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "cd packages/frontend && next build",
   "outputDirectory": "packages/frontend/.next"
 }
+
 
