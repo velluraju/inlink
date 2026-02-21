@@ -1,0 +1,10 @@
+.git
+.gitignore
+node_modules
+npm-debug.log
+.next/cache
+.kiro
+InLink-PRD-v3.0.md
+DEPLOYMENT_GUIDE.md
+*.md
+tmpclaude*
