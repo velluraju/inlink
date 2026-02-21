@@ -9,8 +9,9 @@
   "scripts": {
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
     "dev:backend": "npm run dev --workspace=@inlink/backend",
-    "dev:frontend": "npm run dev --workspace=@inlink/frontend",
-    "build": "npm run build --workspace=@inlink/frontend",
+    "dev:frontend": "cd packages/frontend && npm run dev",
+    "build": "cd packages/frontend && npm run build",
+    "start": "cd packages/frontend && npm start",
     "test": "npm run test --workspaces",
     "lint": "npm run lint --workspaces",
     "format": "prettier --write \"packages/**/*.{ts,tsx,js,jsx,json,md}\"",
