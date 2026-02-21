@@ -1,6 +1,7 @@
 {
-  "rootDirectory": "packages/frontend",
-  "outputDirectory": ".next"
+  "installCommand": "cd packages/frontend && npm install",
+  "buildCommand": "cd packages/frontend && ./node_modules/.bin/next build",
+  "outputDirectory": "packages/frontend/.next"
 }
 
 
