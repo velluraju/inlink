@@ -10,7 +10,7 @@
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
     "dev:backend": "npm run dev --workspace=@inlink/backend",
     "dev:frontend": "npm run dev --workspace=@inlink/frontend",
-    "build": "npm run build --workspaces",
+    "build": "npm run build --workspace=@inlink/frontend",
     "test": "npm run test --workspaces",
     "lint": "npm run lint --workspaces",
     "format": "prettier --write \"packages/**/*.{ts,tsx,js,jsx,json,md}\"",
